@@ -9,7 +9,9 @@ import {Alumno} from 'src/app/models/alumno.interface';
 
 
 export class ListaAlumnosComponent {
-  alumnos: Alumno = [] = [
+  //alumnos: Alumno[] \= [
+  alumnos: Alumno[] = [
+    
     {
       apellido: 'Pérez',
       nombre: 'Juan',
