@@ -1,5 +1,5 @@
-<p *ngFor="let alumno of alumnos" [ngClass]="{ 'aprobado': alumno.nota >= 70, 'reprobado': alumno.nota < 70 }">
-      Apellido: {{ alumno.apellido }}, Nombre: {{ alumno.nombre }} - Nota: {{ alumno.nota }}
+<p *ngFor="let alumno of alumnos" [ngClass]="{ 'aprobado': alumno.nota >= 7, 'reprobado': alumno.nota < 7 }">
+      Apellido: {{ alumno.apellido | formatLastname }}, Nombre: {{ alumno.nombre | formatName }} - Nota: {{ alumno.nota }}
     </p>
 
   
